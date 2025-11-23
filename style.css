@@ -207,6 +207,11 @@ footer{
     transition: all 0.5s;
 }
 
+#header{
+    z-index: 1002;
+}
+
+
 @media(max-width: 1024px){.boss_card{flex-direction: column;}}
 
 @media(max-width: 768px){
@@ -356,5 +361,6 @@ footer{
     
 
 }
+
 
 /* https://kenwheeler.github.io/slick/ */
