@@ -197,18 +197,18 @@ footer{
 }
 
 .up_arrow{
-    position: fixed;
-    z-index: 1001;
+    z-index: 500;
     border-radius: 90%;
     width: 45px;
-    right: 2%;
-    top: 90%;
 
     transition: all 0.5s;
 }
 
-#header{
-    z-index: 1002;
+.up_link{
+    position: fixed;
+    z-index: 501;
+    right: 2%;
+    top: 90%;
 }
 
 
@@ -364,3 +364,4 @@ footer{
 
 
 /* https://kenwheeler.github.io/slick/ */
+
